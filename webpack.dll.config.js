@@ -5,7 +5,6 @@ const TerserPlugin = require('terser-webpack-plugin')
 module.exports = {
   entry: {
     "vendor": [
-      "prop-types",
       "react",
       "react-dom",
       "react-router-dom",
